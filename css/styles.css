@@ -637,6 +637,12 @@ footer h1 {
   transform: scale(10vh);
 }
 
+@media (min-width: 600px) {
+  #tridiv {
+    top: -6vw;
+  }
+}
+
 #tridiv2 {
   position: absolute;
   width: 100%;
@@ -647,6 +653,12 @@ footer h1 {
   top: 10vw;
   right: -10vw;
   transform: rotate(85deg);
+}
+
+@media (min-width: 600px) {
+  #tridiv2 {
+    top: -2vw;
+  }
 }
 
 #tridiv2 .cub-1 .face {
